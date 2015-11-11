@@ -1,0 +1,12 @@
+Package: NicheOverlapR
+Title: Ecological niche overlap calculations
+Description: Transformes data to calculate and evaluate niche overlap probabilities of species pairs
+Version: 0.1
+Author: Jonas Geschke and Soeren Greule
+Maintainer: Jonas Geschke <jonas.geschke@hotmail.de>
+Depends:
+    R (>= 3.2.2),
+    reshape
+License: MIT
+LazyData: true
+RoxygenNote: 5.0.0
