@@ -26,7 +26,4 @@ Temporal niche overlap probabilities for species pairs
 \description{
 This function calculates the temporal niche overlap probabilities for each possible species pair within an animal community.
 }
-\details{
-Further, the processing time of the function is displayed: start / end / duration
-}
 

@@ -8,7 +8,6 @@
 #' @param txt TRUE or FALSE (standard), if TRUE automaticly saves organized txt output files
 #' @param site EBN (El Bosque Nuevo) or PP (Peru Panguana)
 #' @return Temporal niche overlap probabilities for species pairs
-#' @details Further, the processing time of the function is displayed: start / end / duration
 #' @export
 
 nicheoverlap <- function(data, method = "missing", ra4 = TRUE, iterations = 1, txt = FALSE, site = "missing"){
