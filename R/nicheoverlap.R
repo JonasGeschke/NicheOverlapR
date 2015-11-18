@@ -12,8 +12,6 @@
 #' @export
 
 nicheoverlap <- function(data, method = "missing", ra4 = TRUE, iterations = 1, txt = FALSE, site = "missing"){
-  time1 <- Sys.time()
-  print(time1)
   if(site %in% c("PP", "EBN")){
     data_spp <- data.frame(Spp1 = factor(rep(1, choose(nrow(data), 2))),
                            Spp2 = factor(rep(1, choose(nrow(data), 2))))
@@ -52,7 +50,4 @@ nicheoverlap <- function(data, method = "missing", ra4 = TRUE, iterations = 1, t
     {organized_txt(data_spp, method = method, site = site)}
   } else
   {return("Error: Please set site to EBN or PP")}
-  time2 <- Sys.time()
-  print(time2)
-  print(time2 - time1)
-}
+  }
